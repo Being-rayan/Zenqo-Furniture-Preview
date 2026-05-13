@@ -1,119 +1,91 @@
-# ZENQO — Luxury CNC Furniture Platform
+# Zenqo - CNC Precision Furniture Platform
 
-ZENQO is a modern luxury-inspired furniture platform focused on futuristic furniture experiences, CNC precision aesthetics, and premium UI/UX design for modern digital commerce.
+Zenqo is a modern furniture commerce prototype built for custom CNC-manufactured furniture. It showcases a premium customer-facing experience where users can explore furniture collections, configure room moods, add products to cart, complete a checkout flow, and submit custom design consultation requests.
 
-This repository serves as a public showcase of the project containing screenshots, previews, and project documentation. The complete development repository and source code are maintained privately.
+**Live Demo:** https://zenqo-furniture.vercel.app/
 
----
+## Project Purpose
 
-# Live Project
+This repository is a public preview showcase for the Zenqo project.  
+The main source code is private, so this preview repo contains the project overview, deployed link, and project screenshots for professional review.
 
-Deployment Link:  
-https://zenqo-furniture.vercel.app/
+## Overview
 
----
+Zenqo is designed around a real-world furniture buying workflow for modern homes. The platform focuses on premium furniture discovery, CNC precision branding, made-to-order customization, and a clean ecommerce-style user journey.
 
-# Project Overview
+The project was built using a plain React and Vite frontend with a Node.js, Express, and PostgreSQL backend structure. It intentionally does not use Next.js.
 
-ZENQO was designed as a modern furniture startup concept combining:
+## Key Features
 
-- Premium ecommerce-inspired UI/UX
-- CNC precision furniture branding
-- Minimal luxury design language
-- Responsive modern layouts
-- Smooth user-focused interactions
+- Responsive luxury furniture storefront
+- Product catalog for seating, beds, tables, and storage
+- Collections page with filtering, sorting, pricing, stock status, and ratings
+- Design Studio with mood boards, room presets, finish selection, fabric options, size controls, and product recommendations
+- Cart system with quantity updates, item removal, local cart persistence, GST summary, and order confirmation UI
+- Checkout flow with UPI, card, and cash-on-delivery options
+- Consultation request form for custom furniture briefs
+- Newsletter capture
+- Express API health endpoint with PostgreSQL connection check
+- Starter database schema for products and orders
 
-The platform focuses heavily on visual presentation, modern aesthetics, and professional frontend design.
+## Tech Stack
 
----
-
-# Main Features
-
-- Modern luxury landing page
-- Furniture collections showcase
-- Design studio inspired interface
-- Login and signup pages
-- Checkout and payment UI
-- Responsive layouts for multiple devices
-- Premium dark-and-light themed sections
-- Modern startup-style branding
-
----
-
-# Tech Stack
-
-## Frontend
-- React
+### Frontend
+- React 19
 - Vite
 - JavaScript
-- HTML5
 - CSS3
+- Lucide React icons
 
-## Backend
+### Backend
 - Node.js
 - Express.js
+- PostgreSQL
+- pg
+- cors
+- dotenv
 
-## Development Tools
-- Git
-- GitHub
-- VS Code
+### Deployment and Tools
+- Vercel
 - npm
+- Git
+- Web3Forms
 
----
+## Main Pages
 
-# Contact Form Integration
+- Home Page
+- Furniture Collections
+- Design Studio
+- About Page
+- Login Page
+- Signup Page
+- Cart and Checkout Page
 
-The website contact form is fully active and connected using Web3Forms integration.
+## Project Screenshots
 
-All submitted forms are directly received in my connected Gmail account for communication, feedback, and project inquiries.
+Project screenshots are attached in this repository to show the live UI, main pages, responsive layout, product catalog, design studio, and checkout experience.
 
----
+## User Workflow
 
-# Repository Purpose
+1. User lands on the Zenqo homepage and explores the brand experience.
+2. User browses furniture collections by category, material, color, price, and stock status.
+3. User opens the Design Studio to explore curated room moods and furniture combinations.
+4. User adds selected products to the cart.
+5. User reviews cart items, updates quantities, and enters delivery details.
+6. User selects a payment method and places an order through the checkout UI.
+7. User can also submit a custom consultation request for made-to-order furniture.
 
-This repository is maintained for:
+## Project Status
 
-- Portfolio presentation
-- Project showcase
-- UI/UX demonstration
-- Proof of work
-- Academic and professional presentation
+Zenqo is a portfolio and startup-prototype project. The current deployed version demonstrates the customer-facing furniture discovery, customization, cart, checkout UI, and consultation flow.
 
-The primary development repository remains private.
+Payment gateway processing and database-backed order persistence are planned as future production integrations.
 
----
+## Privacy Note
 
-# Screenshots
+The production source code is kept private.  
+This repository is maintained only as a public preview for project presentation, screenshots, and professional review.
 
-This repository includes multiple screenshots and UI previews of the platform showcasing:
-
-- Homepage
-- Authentication pages
-- Checkout flow
-- Collections section
-- Design layouts
-- Responsive interface design
-
----
-
-# Future Scope
-
-Planned future improvements include:
-
-- AI-assisted furniture customization
-- 3D furniture visualization
-- AR room placement
-- Dynamic product customization
-- Smart recommendation system
-
----
-
-# Author
+## Author
 
 Rayan Qamar
-
----
-
-# Note
-
-This project is developed for portfolio, learning, UI/UX experimentation, and startup prototype purposes.
