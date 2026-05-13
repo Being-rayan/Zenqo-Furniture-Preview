@@ -180,14 +180,7 @@ This repository exists for recruiter showcase, workflow explanation, and technic
 
 # Screenshots
 
-This preview repository includes screenshots of:
-
-- Homepage UI
-- Furniture collections
-- Design Studio workflow
-- Product browsing experience
-- Cart and checkout pages
-- Responsive layouts
+Screenshots are included in this repository to showcase the deployed UI, workflow, and overall project experience.
 
 ---
 
